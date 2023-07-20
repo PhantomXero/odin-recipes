@@ -1,0 +1,23 @@
+h1
+{
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header
+{
+    padding-top: 35px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    background-color: #C8A2C8;
+    background-image: url(../img/Banner.webp);
+    height: 100px;
+}
+
+.home
+{
+    padding-top: 10px;
+    padding-left: 1cm;
+    padding-bottom: 1cm;
+    padding-right: 1cm;
+}
