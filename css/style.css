@@ -33,7 +33,7 @@ h1
 
 .description
 {
-    padding-top: 1.5cm;
+    padding-top: 1.5cm; 
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -54,4 +54,9 @@ img
 {
     display: flex;
     column-gap: 20px;
+}
+
+.list
+{
+    padding-left: 0.5cm;
 }
