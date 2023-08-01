@@ -1,6 +1,14 @@
 body
 {
     margin: 0;
+    background-color: rgba(240, 198, 93, 0.74);
+    line-height: 1.5;
+}
+
+p
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
 }
 
 h1
@@ -11,37 +19,79 @@ h1
     text-shadow: 3px 3px black;
 }
 
-.header
+li
+{
+    font-size: 17px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h4
+{
+    font-size: 25px;
+    clear: both;
+}
+
+header
 {   
     padding-top: 35px;
-    padding-bottom: 25px;
-    padding-left: 50px;
+    padding-bottom: 35px;
     background-color: #C8A2C8;
     background-image: url(../img/Banner.webp);
-    height: 100px;
+    /* 
+    height: 100px; */
+    text-align: center;
+}
+
+footer
+{
+    clear: both;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(214, 145, 18);
 }
 
 .home
 {
-    background-color: white;
-    width: 50px;
-    /* padding-top: 10px;
-    padding-left: 1cm;
-    padding-bottom: 1cm;
-    padding-right: 1cm; */
+    color: black;
+    background-color: #e4a6dbd7;
+    box-shadow: 5px 3px #d462c3;
+    width: 55px;
+    margin: 5px 10px;
+    padding: 1em;
+    float: left;
+    border-radius: 10px;
+}
+
+.home:hover
+{
+    color: white;
+    background-color: yellow;
+    box-shadow: 5px 3px black;
 }
 
 .description
 {
+    float: left;
+    width: 50%;
     padding-top: 1.5cm; 
     font-family: 'Times New Roman', Times, serif;
 }
 
 .image
 {
+    float: right;
     padding-top: 1.5cm;
     padding-left: 1.5cm;
 
+}
+
+.ing
+{
+    
+    clear: both;
+    display: flex;
+    column-gap: 0px;
 }
 
 img
@@ -52,11 +102,59 @@ img
 
 .container
 {
-    display: flex;
-    column-gap: 20px;
+    /* display: flex;
+    column-gap: 20px; */
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1250px;
+    padding-bottom: 100px;
 }
 
 .list
 {
+    clear: both;
     padding-left: 0.5cm;
+}
+
+.bottom-section .box1
+{
+    float: left;
+    width: 85%;
+    max-width: 500px;
+    
+    column-gap: 200px; 
+}
+
+.bottom-section .box2
+{
+    
+    clear: both;
+    width:auto;
+    max-width: 500px;
+    
+    padding-inline: 10px;
+    
+        
+    
+}
+
+.top-section
+{
+    padding-bottom: 370px;
+}
+
+.mid-section
+{
+    
+    padding-bottom: 20px;
+}
+
+.bottom-section
+{
+    
+    padding-bottom: 500px;
+    clear: both;
+    display: flex;
+    column-gap: 0px;
+    
 }
