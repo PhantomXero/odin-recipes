@@ -145,14 +145,14 @@ img
 
 .mid-section
 {
-    
-    padding-bottom: 20px;
+    clear: both;
+    padding-bottom: 50px;
 }
 
 .bottom-section
 {
     
-    padding-bottom: 500px;
+    padding-bottom: 50px;
     clear: both;
     display: flex;
     column-gap: 0px;
