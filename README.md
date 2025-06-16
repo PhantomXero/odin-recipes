@@ -1,21 +1,63 @@
-# odin-recipes
-I am build an odin project that will provide links to recipes
-Instruction set:
-1. Manuelly setting up boiler plate. x
-2. Create a homepage that has a list of foods. x
-3. Create links that will link to a webpage with the recipe that was selected. x
-4. In the new webpages a picture of the food should be deplayed under the food title(Header). x
-5. An apropretly sized discrption should be under the pic.
-6. Under the description, add an “Ingredients” header followed by an unordered list of the ingredients needed for the recipe.
-7. Finally, under the ingredients list, add a “Steps” heading followed by an ordered list of the steps needed for making the dish.
-8. Make three link recipe pages.
+# Odin Recipes
 
-Skill set:
-1. Making boiler plate. 
-2. Structuring web page.
-3. Making Link tags
-4. Making img tags
-5. Making divs and maybe spans
-6. Different types of headers.
-7. Unordered lists
-8. Ordered lists
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff&style=flat-square)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=flat-square)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Project Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)](#)
+
+A simple and modern recipe website built as part of [The Odin Project](https://www.theodinproject.com/) curriculum. This project demonstrates fundamental HTML and CSS skills by creating a homepage with links to individual recipe pages.
+
+---
+
+## Features
+
+- Responsive homepage listing multiple recipes
+- Individual recipe pages with:
+  - Food title and image
+  - Description
+  - Ingredients (unordered list)
+  - Step-by-step instructions (ordered list)
+- Clean, modern design
+
+---
+
+## Project Structure
+
+```
+odin-recipes/
+├── css/
+│   └── style.css
+├── img/
+│   └── ... (recipe images)
+├── index.html
+├── recipes
+|   └── ... (other recipe pages)
+└── README.md
+```
+
+---
+
+## Instructions
+
+1. **Set up boilerplate HTML and CSS files**
+2. **Create a homepage** listing available recipes
+3. **Add links** from the homepage to individual recipe pages
+4. **Display a food image** under each recipe title
+5. **Add a description** below the image
+6. **List ingredients** using an unordered list
+7. **List preparation steps** using an ordered list
+8. **Create at least three recipe pages**
+
+---
+
+## Skills Demonstrated
+
+- Semantic HTML structure
+- Linking between pages
+- Using images and alt text
+- Creating and styling lists
+- Responsive and accessible design
+- Organizing files and assets
+
+---
+
+> _Built as part of The Odin Project curriculum._
